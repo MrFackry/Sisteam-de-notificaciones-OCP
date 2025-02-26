@@ -1,9 +1,9 @@
 import Modelo.EmailNotificacion;
 import Modelo.PushNotificacion;
 import Modelo.SMSNotificacion;
+import Modelo.WhatsappNotificacion;
 import Servicios.NotificacionesServicios;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
@@ -12,10 +12,10 @@ public class Main {
         SMSNotificacion sms = new SMSNotificacion();
         PushNotificacion push = new PushNotificacion();
         EmailNotificacion email = new EmailNotificacion();
-
+        WhatsappNotificacion whatsapp = new WhatsappNotificacion();
         /*creamos el servicio*/
-        NotificacionesServicios servicios = new NotificacionesServicios(Arrays.asList(sms,push,email));
+        NotificacionesServicios servicios = new NotificacionesServicios(Arrays.asList(sms,push,email,whatsapp));
         /*enviamos los mensajes*/
-        servicios.enviarNotificaciones("mensaje de prueba");//enviara los mesajes de cada notificacion
+        servicios.enviarNotificaciones("mensaje de prueba: ");//enviara los mesajes de cada notificacion
     }
 }
