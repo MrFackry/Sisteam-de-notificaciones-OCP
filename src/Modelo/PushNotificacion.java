@@ -9,7 +9,7 @@ public class PushNotificacion implements Notificaciones {
     @Override
     public void enviar(String notificacion) {
         mensaje = "tienes una notificacion push";//mensaje que se mostrara al correr la app
-        System.out.println(mensaje);    }
+        System.out.println(notificacion+mensaje);    }
 
     //usamos el to string para que el mensaje se legible
     @Override
