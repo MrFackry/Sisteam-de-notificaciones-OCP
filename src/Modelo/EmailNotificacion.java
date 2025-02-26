@@ -8,10 +8,10 @@ public class EmailNotificacion implements Notificaciones {
     /*usamos la interfaz*/
     @Override
     public void enviar(String notificacion){
-        mensaje = "tienes una notificacion email";
+        mensaje = "tienes una notificacion email";//mensaje que se mostrara al correr la app
         System.out.println(mensaje);
     }
-
+    //usamos el to string para que el mensaje se legible
     @Override
     public String toString() {
         return "EmailNotificacion{" +

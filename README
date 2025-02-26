@@ -1,0 +1,11 @@
+#PROYECTO DE PRUEBA Y REFUERSO DE CONOCIMIENTOS BASE
+
+este pequeño proyecto de prueba usa:
+#POO
+#principios solid
+#patron strategy
+
+el proyecto consiste en crear un sistemas de notificaciones que envia mensaje por medio de diferentes metodos(sms,email,push)
+el sistema es flexible y esta echo para afuturo agregar mas notificaciones sin modificar el codigo existente.
+
+Para lograrlo, se uso interfaces y el principio OCP (Principio Abierto/Cerrado) de SOLID.

@@ -8,10 +8,10 @@ public class SMSNotificacion implements Notificaciones {
     /*usamos la interfaz*/
     @Override
     public void enviar(String notificacion) {
-        mensaje = "tienes una notificacion SMS";
+        mensaje = "tienes una notificacion SMS";//mensaje que se mostrara al correr la app
         System.out.println(mensaje);
     }
-
+    //usamos el to string para que el mensaje se legible
     @Override
     public String toString() {
         return "SMSNotificacion{" +

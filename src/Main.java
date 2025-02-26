@@ -15,7 +15,7 @@ public class Main {
 
         /*creamos el servicio*/
         NotificacionesServicios servicios = new NotificacionesServicios(Arrays.asList(sms,push,email));
-
-        servicios.enviarNotificaciones("mensaje de prueba");
+        /*enviamos los mensajes*/
+        servicios.enviarNotificaciones("mensaje de prueba");//enviara los mesajes de cada notificacion
     }
 }
