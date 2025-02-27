@@ -9,3 +9,8 @@ el proyecto consiste en crear un sistemas de notificaciones que envia mensaje po
 el sistema es flexible y esta echo para afuturo agregar mas notificaciones sin modificar el codigo existente.
 
 Para lograrlo, se uso interfaces y el principio OCP (Principio Abierto/Cerrado) de SOLID.
+
+#mejoras a realizar
+-aplicar el metodo factory
+-agregar interfas grafica
+-configurar los mensajes fuera del codigo como en algun archivo json o una bd
